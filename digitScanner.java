@@ -6,8 +6,8 @@ public class digitScanner{
     System.out.println("Enter a number:")
     int num = scan.nextInt();
     int current = input % 10;
-    if(current % 2){
-      
+    if(current == 0){
+      System.out.println("");
     }
   }
 }

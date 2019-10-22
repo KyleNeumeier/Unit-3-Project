@@ -3,17 +3,19 @@ import java.util.Scanner;
 public class PalindromeTester{
   public static void main(String[] args){
     Scanner scan = new Scanner(System.in);
-    System.out.println("Would you like to enter a palindrome?");
+    System.out.println("Enter a palindrome?");
 
-    String reverse = (System.in);
-    for(reverse = ""; reverse.length() != input.length(); reverse += input.charAt(input.length() - reverse.length() - 1))
+    String input = scan.nextLine();
 
-    if(System.in == reverse){
-      System.out.println("Is a palindrome");
+    for(int i = 0; i <= input.length() - 1; i++){
+      if(input.charAt(i) == input.charAt(input.length() - (i + 1))){
+
+      }
+      else{
+        System.out.println("Not a palindrome");
+        System.exit(0);
+      }
     }
-    else{
-      System.out.println("Not a palindrome");
-    }
-
+    System.out.println("Is a palindrome");
   }
 }

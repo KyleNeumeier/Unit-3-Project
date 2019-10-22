@@ -9,13 +9,12 @@ public class multiples{
     int multi = scan.nextInt();
 
     if((multi > 0) && (num > 0)){
-      for(int i = 2; i <= (multi + 1); i++){
+      for(int i = 1; i <= (multi + 1); i++){
 
         System.out.print((num * i) + " ");
-        if((i % 6) == 0){
+        if((i % 5) == 0){
           System.out.println();
         }
-
       }
     }
     else
